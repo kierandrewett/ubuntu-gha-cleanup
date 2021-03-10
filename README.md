@@ -3,10 +3,10 @@
 <!-- AUTOGEN:SOFTWARE_REMOVED:START -->
 ## Software removed
 
-**Total software removed**: 231
+**Total software removed**: 229
 
 <details>
-  <summary>See all 231 items</summary>
+  <summary>See all 229 items</summary>
 
   * powershell
   * psmisc
@@ -96,7 +96,6 @@
   * mono-runtime-common
   * grub-efi-amd64-signed
   * util-linux
-  * aptitude
   * libmono-corlib4.5-cil
   * libmonoboehm-2.0-1
   * php7.4-dev
@@ -133,11 +132,9 @@
   * gconf2-common
   * nuget
   * postgresql-client-13
-  * dpkg
   * libgsl-dev
   * liblapack3
   * libmagickcore-6.q16-6
-  * coreutils
   * fonts-dejavu-extra
   * libmysqlclient21
   * grub-efi-amd64-bin
@@ -158,7 +155,6 @@
   * libgtk-3-0
   * libglib2.0-dev
   * binutils-x86-64-linux-gnu
-  * aptitude-common
   * ieee-data
   * aspnetcore-targeting-pack-3.1
   * perl-base
@@ -177,7 +173,6 @@
   * mono-roslyn
   * liblldb-10
   * git-lfs
-  * systemd
   * libstdc++-7-dev
   * libstdc++-8-dev
   * gh
@@ -239,6 +234,9 @@
   * kubectl
   * libicu-dev
   * libclang-cpp10
+  * nginx
+  * ant
+  * libfontconfig1
 
 </details>
 
