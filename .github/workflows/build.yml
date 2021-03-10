@@ -6,4 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: List installed
-        run: aptitude search "~i" --display-format "%p %I" --sort installsize
+        run: |
+          apt-get install aptitude
+          aptitude search "~i" --display-format "%p %I" --sort installsize
