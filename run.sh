@@ -12,17 +12,17 @@ echo ""
 
 sleep 5
 
-dpkg --configure -a
+sudo dpkg --configure -a
 
 DEBIAN_FRONTEND=noninteractive \
-  apt-get --assume-yes install aptitude ubuntu-minimal
+  sudo apt-get --assume-yes install aptitude ubuntu-minimal
 
 DEBIAN_FRONTEND=noninteractive \
-  aptitude --assume-yes markauto \
+  sudo aptitude --assume-yes markauto \
     '~i!?name(ubuntu-minimal~|linux-generic~|systemd~|openssh-server)'
 
 DEBIAN_FRONTEND=noninteractive \
-  aptitude --assume-yes purge '~c'
+  sudo aptitude --assume-yes purge '~c'
 
 cat files_remove.txt | while read f
 do
