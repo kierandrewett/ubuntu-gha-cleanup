@@ -3,10 +3,10 @@
 <!-- AUTOGEN:SOFTWARE_REMOVED:START -->
 ## Software removed
 
-**Total software removed**: 229
+**Total software removed**: 231
 
 <details>
-  <summary>See all 229 items</summary>
+  <summary>See all 231 items</summary>
 
   * powershell
   * psmisc
@@ -49,9 +49,6 @@
   * ruby-net-telnet
   * ruby-power-assert
   * ruby-test-unit
-  * ruby2.5
-  * ruby2.5-dev
-  * ruby2.5-doc
   * rubygems-integration
   * ghc-9.0.1
   * azure-cli
@@ -171,7 +168,6 @@
   * python3-twisted
   * aspnetcore-targeting-pack-5.0
   * libgcc-7-dev
-  * libc6
   * grub-common
   * libgcc-8-dev
   * mercurial-common
@@ -204,10 +200,13 @@
   * llvm-10
   * humanity-icon-theme
   * monodoc-manual
-  * libz3-4ruby2.7-doc
-  * mono-utilsskopeo
+  * libz3-4
+  * ruby2.7-doc
+  * mono-utils
+  * skopeo
   * cpp-7
-  * dotnet-targeting-pack-3.1liblapack-dev
+  * dotnet-targeting-pack-3.1
+  * liblapack-dev
   * cpp-8
   * 26.3
   * g++-7
@@ -224,7 +223,8 @@
   * cpp-10
   * mono-llvm-support
   * dotnet-targeting-pack-5.0
-  * gcc-8gfortran-10
+  * gcc-8
+  * gfortran-10
   * gcc-9
   * g++-10
   * vim-runtime
@@ -236,7 +236,9 @@
   * libclang-cpp9
   * liblldb-9
   * r-base-core
-  * kubectllibicu-devlibclang-cpp10
+  * kubectl
+  * libicu-dev
+  * libclang-cpp10
 
 </details>
 
