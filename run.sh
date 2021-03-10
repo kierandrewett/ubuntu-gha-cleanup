@@ -14,8 +14,6 @@ sleep 5
 
 sudo apt-get autoremove
 sudo apt clean all
-sudo rm -rf /var/log/*gz
-sudo rm -rf /tmp
 sudo docker system prune -a
 sudo docker image prune
 sudo docker rmi $(docker images -a -q)
@@ -37,3 +35,6 @@ do
    echo "Removing $f..."
    sudo rm -rf $f
 done
+
+sudo rm -rf /var/log/*gz
+sudo rm -rf /tmp
