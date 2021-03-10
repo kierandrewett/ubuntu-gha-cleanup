@@ -3,10 +3,10 @@
 <!-- AUTOGEN:SOFTWARE_REMOVED:START -->
 ## Software removed
 
-**Total software removed**: 229
+**Total software removed**: 228
 
 <details>
-  <summary>See all 229 items</summary>
+  <summary>See all 228 items</summary>
 
   * powershell
   * psmisc
@@ -101,7 +101,6 @@
   * php7.4-dev
   * mono-runtime-sgen
   * php7.4-cli
-  * php7.4-fpm
   * p7zip-full
   * libpython3.8-minimal
   * subversion
