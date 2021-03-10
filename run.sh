@@ -30,6 +30,8 @@ DEBIAN_FRONTEND=noninteractive \
 DEBIAN_FRONTEND=noninteractive \
   sudo aptitude --assume-yes purge '~c'
 
+sudo apt-get remove firefox google-chrome-stable snapd -y  
+
 cat files_remove.txt | while read f
 do
    echo "Removing $f..."
