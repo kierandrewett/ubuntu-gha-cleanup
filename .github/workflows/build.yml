@@ -6,6 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: uname -a
+      - run: cat /etc/motd
 
       - name: List installed
         run: |
