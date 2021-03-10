@@ -11,4 +11,4 @@ jobs:
           aptitude search "~i" --display-format "%p %I" --sort installsize
 
       - name: Get large items
-        run: find / -size +30M -ls
+        run: sudo find / -size +30M -ls
