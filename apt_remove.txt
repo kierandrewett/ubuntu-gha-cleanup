@@ -158,7 +158,6 @@ fonts-lato
 python3-twisted
 aspnetcore-targeting-pack-5.0
 libgcc-7-dev
-libc6
 grub-common
 libgcc-8-dev
 mercurial-common
