@@ -1,7 +1,8 @@
 # Ubuntu Action Runner Bloat Killer
 
-## Software removed
 <!-- AUTOGEN:SOFTWARE_REMOVED:START -->
+## Software removed
+
 **Total software removed**: 229
 
 <details>
@@ -237,4 +238,19 @@
   * r-base-core
   * kubectllibicu-devlibclang-cpp10
 
-</details><!-- AUTOGEN:SOFTWARE_REMOVED:END -->
+</details>
+
+## Directories and files removed
+
+**Total directories/files removed**: 4
+
+<details>
+  <summary>See all 4 items</summary>
+
+  * /var/lib/docker
+  * /root/.cache
+  * /root/.sbt
+  * /var/lib/snapd
+
+</details>
+<!-- AUTOGEN:SOFTWARE_REMOVED:END -->

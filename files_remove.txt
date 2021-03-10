@@ -1,0 +1,4 @@
+/var/lib/docker
+/root/.cache
+/root/.sbt
+/var/lib/snapd

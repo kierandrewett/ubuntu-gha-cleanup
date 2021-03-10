@@ -1,0 +1,25 @@
+name: Generate README
+
+on:
+  schedule:
+    - cron: '*/1 * * * *' # every minute
+  workflow_dispatch: # manually run
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run
+        run: |
+          node gen_readme.js
+
+      - name: Push to GitHub
+        run: |
+          git config --global user.name "dothq-robot"
+          git config --global user.email "72629236+dothq-robot@users.noreply.github.com"
+          git status
+          git add .
+          git commit -m "📝 Automagically update README"
+          git push origin main
