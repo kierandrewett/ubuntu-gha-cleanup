@@ -12,13 +12,8 @@ echo ""
 
 sleep 5
 
-cat apt_remove.txt | while read pkg
-do
-   echo "Removing $pkg..."
-   sudo apt-get remove $pkg
-   echo "Purging $pkg..."
-   sudo apt-get purge $pkg
-done
+sudo apt-get remove $(cat apt_remove.txt | tr "\n" " ")
+sudo apt-get purge $(cat apt_remove.txt | tr "\n" " ")
 
 cat files_remove.txt | while read f
 do
