@@ -39,7 +39,6 @@ ruby-minitest
 ruby-net-telnet
 ruby-power-assert
 ruby-test-unit
-ruby2.5
 ruby2.5-dev
 ruby2.5-doc
 rubygems-integration
