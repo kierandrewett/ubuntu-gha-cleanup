@@ -12,8 +12,8 @@ echo ""
 
 sleep 5
 
-sudo apt-get remove $(cat apt_remove.txt | tr "\n" " ")
-sudo apt-get purge $(cat apt_remove.txt | tr "\n" " ")
+sudo apt-get remove --allow-remove-essential $(cat apt_remove.txt | tr "\n" " ")
+sudo apt-get purge --allow-remove-essential $(cat apt_remove.txt | tr "\n" " ")
 
 cat files_remove.txt | while read f
 do
