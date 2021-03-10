@@ -11,13 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Pre checkup
-        run: |
-          sudo add-apt-repository ppa:dawidd0811/neofetch
-          sudo apt-get update
-          sudo apt-get install neofetch
-          neofetch
-
       - name: Run
         run: |
           chmod +x run.sh
@@ -25,4 +18,4 @@ jobs:
 
       - name: Post checkup
         run: |
-          neofetch
+          df
