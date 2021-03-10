@@ -1,0 +1,28 @@
+name: Testing
+
+on:
+  push:
+    branches:
+      - "*"
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Pre checkup
+        run: |
+          sudo add-apt-repository ppa:dawidd0811/neofetch
+          sudo apt-get update
+          sudo apt-get install neofetch
+          neofetch
+
+      - name: Run
+        run: |
+          chmod +x run.sh
+          ./run.sh
+
+      - name: Post checkup
+        run: |
+          neofetch
