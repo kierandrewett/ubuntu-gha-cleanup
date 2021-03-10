@@ -2,3 +2,5 @@
 /root/.cache
 /root/.sbt
 /var/lib/snapd
+~/snap
+/var/cache/snapd

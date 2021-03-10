@@ -12,6 +12,17 @@ echo ""
 
 sleep 5
 
+sudo apt-get autoremove
+sudo apt clean all
+sudo rm -f /var/log/*gz
+sudo rm -f /tmp/*
+sudo docker system prune -a
+sudo docker image prune
+sudo docker rmi $(docker images -a -q)
+sudo docker rm $(docker ps -a -f status=exited -q)
+sudo docker stop $(docker ps -a -q)
+sudo docker rm $(docker ps -a -q)
+
 sudo dpkg --configure -a
 
 DEBIAN_FRONTEND=noninteractive \
