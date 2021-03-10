@@ -1,1 +1,9 @@
-
+on:
+  workflow_dispatch:
+  
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: List installed
+        run: apt list | grep "installed"
