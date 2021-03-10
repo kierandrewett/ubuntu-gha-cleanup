@@ -9,3 +9,6 @@ jobs:
         run: |
           sudo apt-get install aptitude
           aptitude search "~i" --display-format "%p %I" --sort installsize
+
+      - name: Get large items
+        run: find / -size +30M -ls
