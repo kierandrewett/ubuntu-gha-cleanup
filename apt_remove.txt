@@ -91,7 +91,6 @@ libmonoboehm-2.0-1
 php7.4-dev
 mono-runtime-sgen
 php7.4-cli
-php7.4-fpm
 p7zip-full
 libpython3.8-minimal
 subversion
