@@ -227,5 +227,6 @@ git
 libclang-cpp9
 liblldb-9
 r-base-core
-kubectllibicu-dev
+kubectl
+libicu-dev
 libclang-cpp10
