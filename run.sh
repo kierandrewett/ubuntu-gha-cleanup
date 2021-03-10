@@ -12,8 +12,17 @@ echo ""
 
 sleep 5
 
-sudo apt-get remove $(cat apt_remove.txt | tr "\n" " ")
-sudo apt-get purge $(cat apt_remove.txt | tr "\n" " ")
+dpkg --configure -a
+
+DEBIAN_FRONTEND=noninteractive \
+  apt-get --assume-yes install aptitude ubuntu-minimal
+
+DEBIAN_FRONTEND=noninteractive \
+  aptitude --assume-yes markauto \
+    '~i!?name(ubuntu-minimal~|linux-generic~|systemd~|openssh-server)'
+
+DEBIAN_FRONTEND=noninteractive \
+  aptitude --assume-yes purge '~c'
 
 cat files_remove.txt | while read f
 do
