@@ -5,6 +5,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - run: uname -a
+
       - name: List installed
         run: |
           sudo apt-get install aptitude
