@@ -14,8 +14,8 @@ sleep 5
 
 sudo apt-get autoremove
 sudo apt clean all
-sudo rm -f /var/log/*gz
-sudo rm -f /tmp/*
+sudo rm -rf /var/log/*gz
+sudo rm -rf /tmp
 sudo docker system prune -a
 sudo docker image prune
 sudo docker rmi $(docker images -a -q)
