@@ -163,7 +163,6 @@ libc6-i386
 mono-roslyn
 liblldb-10
 git-lfs
-systemd
 libstdc++-7-dev
 libstdc++-8-dev
 gh
