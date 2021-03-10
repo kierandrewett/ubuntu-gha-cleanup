@@ -86,7 +86,6 @@ libsvn1
 mono-runtime-common
 grub-efi-amd64-signed
 util-linux
-aptitude
 libmono-corlib4.5-cil
 libmonoboehm-2.0-1
 php7.4-dev
@@ -123,11 +122,9 @@ libc++-10-dev
 gconf2-common
 nuget
 postgresql-client-13
-dpkg
 libgsl-dev
 liblapack3
 libmagickcore-6.q16-6
-coreutils
 fonts-dejavu-extra
 libmysqlclient21
 grub-efi-amd64-bin
@@ -148,7 +145,6 @@ libmonosgen-2.0-dev
 libgtk-3-0
 libglib2.0-dev
 binutils-x86-64-linux-gnu
-aptitude-common
 ieee-data
 aspnetcore-targeting-pack-3.1
 perl-base
