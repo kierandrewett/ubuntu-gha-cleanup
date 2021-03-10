@@ -7,5 +7,5 @@ jobs:
     steps:
       - name: List installed
         run: |
-          apt-get install aptitude
+          sudo apt-get install aptitude
           aptitude search "~i" --display-format "%p %I" --sort installsize
