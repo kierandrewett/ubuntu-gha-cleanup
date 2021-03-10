@@ -3,10 +3,10 @@
 <!-- AUTOGEN:SOFTWARE_REMOVED:START -->
 ## Software removed
 
-**Total software removed**: 228
+**Total software removed**: 166
 
 <details>
-  <summary>See all 228 items</summary>
+  <summary>See all 166 items</summary>
 
   * powershell
   * psmisc
@@ -71,88 +71,52 @@
   * moby-engine
   * mono-devel
   * podman
-  * libllvm11
   * mongodb-org-server
-  * libllvm10
   * dotnet-runtime-3.1
   * moby-cli
   * dotnet-runtime-5.0
-  * libllvm9
   * mysql-client-core-8.0
   * mongodb-org-mongos
   * mono-llvm-tools
-  * libllvm8
   * moby-buildx
   * gcc-10
   * ansible
-  * libclang-common-10-dev
   * mecab-ipadic
   * mongodb-org-shell
   * containernetworking-plugins
-  * libclang-common-9-dev
   * msbuild
-  * libclang-common-8-dev
-  * libsvn1
   * mono-runtime-common
   * grub-efi-amd64-signed
   * util-linux
-  * libmono-corlib4.5-cil
-  * libmonoboehm-2.0-1
   * php7.4-dev
   * mono-runtime-sgen
   * php7.4-cli
   * p7zip-full
-  * libpython3.8-minimal
   * subversion
-  * libmonosgen-2.0-1
   * php7.4-phpdbg
-  * libgfortran-8-dev
   * apache2-bin
   * php8.0-cli
   * php8.0-fpm
   * php8.0-phpdbg
   * php8.0-dev
-  * libgfortran-9-dev
-  * libmagickcore-6.q16-dev
   * adwaita-icon-theme
-  * libgfortran-10-dev
   * swig4.0
   * yarn
-  * libpython3.8
   * python3.8-minimal
   * ubuntu-mono
   * fwupd
-  * libmagic-mgc
-  * libopenexr-dev
-  * linux-libc-dev
   * r-cran-matrix
-  * libdjvulibre-dev
-  * libc++-10-dev
   * gconf2-common
   * nuget
   * postgresql-client-13
-  * libgsl-dev
-  * liblapack3
-  * libmagickcore-6.q16-6
   * fonts-dejavu-extra
-  * libmysqlclient21
   * grub-efi-amd64-bin
-  * libmediainfo0v5
   * php7.4-common
-  * libssl-dev
-  * libpython3.8-stdlib
   * php8.0-common
   * r-cran-survival
-  * libpython2.7-stdlib
-  * liblcms2-dev
   * udev
   * php7.4-cgi
   * php8.0-cgi
-  * librsvg2-2
-  * libmysqlclient-dev
-  * libmonosgen-2.0-dev
-  * libgtk-3-0
-  * libglib2.0-dev
   * binutils-x86-64-linux-gnu
   * ieee-data
   * aspnetcore-targeting-pack-3.1
@@ -162,53 +126,35 @@
   * fonts-lato
   * python3-twisted
   * aspnetcore-targeting-pack-5.0
-  * libgcc-7-dev
   * grub-common
-  * libgcc-8-dev
   * mercurial-common
-  * libgcc-10-dev
-  * libgcc-9-dev
-  * libc6-i386
   * mono-roslyn
-  * liblldb-10
   * git-lfs
-  * libstdc++-7-dev
-  * libstdc++-8-dev
   * gh
   * llvm-8
-  * libruby2.7
   * shellcheck
   * perl-modules-5.30
   * aspnetcore-runtime-3.1
-  * libwxgtk3.0-gtk3-0v5
-  * libstdc++-9-dev
   * llvm-9
-  * libstdc++-10-dev
   * aspnetcore-runtime-5.0
   * sphinxsearch
-  * libc6-dev
   * moby-runc
-  * libpython3.8-dev
   * iso-codes
   * netstandard-targeting-pack-2.1
   * llvm-10
   * humanity-icon-theme
   * monodoc-manual
-  * libz3-4
   * ruby2.7-doc
   * mono-utils
   * skopeo
   * cpp-7
   * dotnet-targeting-pack-3.1
-  * liblapack-dev
   * cpp-8
   * 26.3
   * g++-7
-  * libclang1-8
   * cpp-9
   * buildah
   * gfortran-8
-  * libperl5.30
   * gfortran-9
   * gcc-7
   * g++-8
@@ -223,19 +169,11 @@
   * g++-10
   * vim-runtime
   * clang-8
-  * liblldb-8
-  * libicu66
-  * libclang1-10
   * git
-  * libclang-cpp9
-  * liblldb-9
   * r-base-core
   * kubectl
-  * libicu-dev
-  * libclang-cpp10
   * nginx
   * ant
-  * libfontconfig1
 
 </details>
 
