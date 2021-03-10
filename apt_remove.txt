@@ -191,10 +191,13 @@ netstandard-targeting-pack-2.1
 llvm-10
 humanity-icon-theme
 monodoc-manual
-libz3-4ruby2.7-doc
-mono-utilsskopeo
+libz3-4
+ruby2.7-doc
+mono-utils
+skopeo
 cpp-7
-dotnet-targeting-pack-3.1liblapack-dev
+dotnet-targeting-pack-3.1
+liblapack-dev
 cpp-8
 26.3
 g++-7
@@ -211,7 +214,8 @@ referenceassemblies-pcl
 cpp-10
 mono-llvm-support
 dotnet-targeting-pack-5.0
-gcc-8gfortran-10
+gcc-8
+gfortran-10
 gcc-9
 g++-10
 vim-runtime
@@ -223,4 +227,5 @@ git
 libclang-cpp9
 liblldb-9
 r-base-core
-kubectllibicu-devlibclang-cpp10
+kubectllibicu-dev
+libclang-cpp10
