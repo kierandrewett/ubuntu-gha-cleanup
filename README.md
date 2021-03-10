@@ -179,15 +179,17 @@
 
 ## Directories and files removed
 
-**Total directories/files removed**: 4
+**Total directories/files removed**: 6
 
 <details>
-  <summary>See all 4 items</summary>
+  <summary>See all 6 items</summary>
 
   * /var/lib/docker
   * /root/.cache
   * /root/.sbt
   * /var/lib/snapd
+  * ~/snap
+  * /var/cache/snapd
 
 </details>
 <!-- AUTOGEN:SOFTWARE_REMOVED:END -->
